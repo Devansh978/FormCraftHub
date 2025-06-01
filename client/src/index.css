@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 220 13% 97%; /* #F8FAFC */
+  --foreground: 210 40% 12%; /* #1A202C */
+  --muted: 210 11% 96%;
+  --muted-foreground: 215 16% 47%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 210 40% 12%;
+  --card: 0 0% 100%;
+  --card-foreground: 210 40% 12%;
+  --border: 214 32% 91%; /* #E2E8F0 */
+  --input: 214 32% 91%;
+  --primary: 227 71% 66%; /* #667EEA */
+  --primary-foreground: 227 100% 98%;
+  --secondary: 263 50% 55%; /* #764BA2 */
+  --secondary-foreground: 0 0% 98%;
+  --accent: 325 84% 67%; /* #ED64A6 */
+  --accent-foreground: 0 0% 98%;
+  --success: 142 76% 52%; /* #48BB78 */
+  --success-foreground: 0 0% 98%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 60 9% 98%;
+  --ring: 210 40% 12%;
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: 240 10% 4%;
+  --foreground: 0 0% 98%;
+  --muted: 240 4% 16%;
+  --muted-foreground: 240 5% 65%;
+  --popover: 240 10% 4%;
+  --popover-foreground: 0 0% 98%;
+  --card: 240 10% 4%;
+  --card-foreground: 0 0% 98%;
+  --border: 240 4% 16%;
+  --input: 240 4% 16%;
+  --primary: 227 71% 66%;
+  --primary-foreground: 227 100% 98%;
+  --secondary: 263 50% 55%;
+  --secondary-foreground: 0 0% 98%;
+  --accent: 325 84% 67%;
+  --accent-foreground: 0 0% 98%;
+  --success: 142 76% 52%;
+  --success-foreground: 0 0% 98%;
+  --destructive: 0 62% 31%;
+  --destructive-foreground: 0 0% 98%;
+  --ring: 240 5% 84%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@layer components {
+  .drag-over {
+    @apply border-2 border-dashed border-primary bg-primary/5;
+  }
+
+  .field-hover {
+    @apply border-primary shadow-md;
+  }
+
+  .field-selected {
+    @apply ring-2 ring-primary border-primary;
+  }
+
+  .gradient-primary {
+    background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--secondary)) 100%);
+  }
+
+  .gradient-secondary {
+    background: linear-gradient(135deg, hsl(var(--secondary)) 0%, hsl(var(--accent)) 100%);
+  }
+
+  .gradient-accent {
+    background: linear-gradient(135deg, hsl(var(--accent)) 0%, hsl(var(--primary)) 100%);
+  }
+}

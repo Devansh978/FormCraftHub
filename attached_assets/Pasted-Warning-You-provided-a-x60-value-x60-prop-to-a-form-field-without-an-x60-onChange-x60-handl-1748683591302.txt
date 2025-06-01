@@ -1,0 +1,55 @@
+Warning: You provided a &#x60;value&#x60; prop to a form field without an &#x60;onChange&#x60; handler. This will render a read-only field. If the field should be mutable use &#x60;defaultValue&#x60;. Otherwise, set either &#x60;onChange&#x60; or &#x60;readOnly&#x60;.
+    at input
+    at _c (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/src/components/ui/input.tsx:20:11)
+    at div
+    at div
+    at div
+    at div
+    at FormField (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/src/components/FormBuilder/FormField.tsx:25:29)
+    at div
+    at ReorderableField (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/src/components/FormBuilder/ReorderableField.tsx:19:3)
+    at div
+    at div
+    at div
+    at div
+    at FormCanvas (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/src/components/FormBuilder/FormCanvas.tsx:22:3)
+    at div
+    at div
+    at FormBuilder (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/src/components/FormBuilder/FormBuilder.tsx:55:7)
+    at FormBuilderPage
+    at Route (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=07d6d64f:323:16)
+    at Switch (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=07d6d64f:379:17)
+    at Router
+    at Provider (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-PLT6GTVM.js?v=07d6d64f:38:15)
+    at TooltipProvider (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=07d6d64f:61:5)
+    at QueryClientProvider (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=07d6d64f:2805:3)
+    at App
+at input
+at _c (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/src/components/ui/input.tsx:20:11)
+at div
+at div
+at div
+at div
+at FormField (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/src/components/FormBuilder/FormField.tsx:25:29)
+at div
+at ReorderableField (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/src/components/FormBuilder/ReorderableField.tsx:19:3)
+at div
+at div
+at div
+at div
+at FormCanvas (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/src/components/FormBuilder/FormCanvas.tsx:22:3)
+at div
+at div
+at FormBuilder (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/src/components/FormBuilder/FormBuilder.tsx:55:7)
+at FormBuilderPage
+at Route (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=07d6d64f:323:16)
+at Switch (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=07d6d64f:379:17)
+at Router
+at Provider (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-PLT6GTVM.js?v=07d6d64f:38:15)
+at TooltipProvider (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=07d6d64f:61:5)
+at QueryClientProvider (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=07d6d64f:2805:3)
+at App
+at t.value (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/__replco/static/devtoo

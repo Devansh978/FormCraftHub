@@ -1,0 +1,42 @@
+The above error occurred in the <SelectItem> component:
+
+    at https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-select.js?v=4ac22c91:846:7
+    at _c11 (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/src/components/ui/select.tsx:208:13)
+    at div
+    at https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-GVTGVYSA.js?v=4ac22c91:42:13
+    at https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-5S42QOQO.js?v=4ac22c91:79:13
+    at https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-5S42QOQO.js?v=4ac22c91:56:13
+    at https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-MKRCTFNO.js?v=4ac22c91:39:15
+    at https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-select.js?v=4ac22c91:757:13
+    at div
+    at https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-5S42QOQO.js?v=4ac22c91:79:13
+    at https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-5S42QOQO.js?v=4ac22c91:56:13
+    at https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-MKRCTFNO.js?v=4ac22c91:39:15
+    at Provider (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-PLT6GTVM.js?v=4ac22c91:38:15)
+    at https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-select.js?v=4ac22c91:300:58
+    at https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-5S42QOQO.js?v=4ac22c91:79:13
+    at https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-5S42QOQO.js?v=4ac22c91:56:13
+    at https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-GVTGVYSA.js?v=4ac22c91:42:13
+    at https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-DFCAEHSQ.js?v=4ac22c91:258:22
+    at SelectPortal
+    at _c7 (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/src/components/ui/select.tsx:123:12)
+    at Provider (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-PLT6GTVM.js?v=4ac22c91:38:15)
+    at Provider (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-PLT6GTVM.js?v=4ac22c91:38:15)
+    at CollectionProvider (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-MKRCTFNO.js?v=4ac22c91:29:13)
+    at Provider (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-PLT6GTVM.js?v=4ac22c91:38:15)
+    at Provider (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-PLT6GTVM.js?v=4ac22c91:38:15)
+    at Popper (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RKW3CID7.js?v=4ac22c91:1921:11)
+    at Select (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-select.js?v=4ac22c91:88:5)
+    at div
+    at div
+    at div
+    at div
+    at div
+    at FieldConfiguration (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/src/components/FormBuilder/FieldConfiguration.tsx:25:3)
+    at div
+    at div
+    at FormBuilder (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/src/components/FormBuilder/FormBuilder.tsx:55:7)
+    at FormBuilderPage
+    at Route (https://74e2f908-c98e-4d6d-b19a-201d9df4663a-00-3gu0lw7tjeyif.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=4ac22c91:323:16)
+    at Switch…
+A  must have a value prop that is not an empty string. This is because the Select value can be set to an empty string to clear the selection and show the placeholder.
