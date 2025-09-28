@@ -16,7 +16,7 @@ function Router() {
     </Switch>
   );
 }
-//
+
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
